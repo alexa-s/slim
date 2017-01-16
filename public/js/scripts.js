@@ -3,4 +3,8 @@ $(document).ready(function() {
     $('#carouselControls').carousel({
         interval: 5000
     });
+
+    $("img").on("contextmenu",function(){
+       return false;
+    }); 
 });
