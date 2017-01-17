@@ -22,6 +22,8 @@ session_start();
 $settings = require __DIR__ . '/../src/settings.php';
 $app = new \Slim\App($settings);
 
+$base_url = 'http://localhost/slimgallery/public/';
+
 $loader = new Twig_Loader_Filesystem('../templates');
 $twig = new Twig_Environment($loader);
 

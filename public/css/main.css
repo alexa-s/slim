@@ -1,5 +1,10 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-    background-color: #000;
+    background-color: #242423;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     color: #aaa;
@@ -81,4 +86,41 @@ body {
     max-width: 930px;
   }
 
+}
+
+/**
+* menu
+*/
+
+.menu {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.nav-link {
+  color: #fff;
+  border-bottom: 1px solid #333638;
+  font-size: 0.8em;
+}
+
+@media (min-width: 768px) {
+    .bootstrap-vertical-nav .collapse {
+        display: block;
+    }
+    .bootstrap-vertical-nav {
+      margin-top: 50%;
+    }
+}
+
+.images {
+  margin-bottom: 15px;
+  padding-right: 0px;
+}
+
+@media (max-width: 767px) {
+  .images {
+    margin-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
