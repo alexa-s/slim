@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: #242423;
+    background-color: #fff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     color: #aaa;
@@ -95,12 +95,18 @@ body {
 .menu {
   padding-right: 0px;
   margin-right: 0px;
+  /*box-shadow: -7px 25px 20px 3px #888;*/
+  border-right: 1px solid #333638;
 }
 
 .nav-link {
-  color: #fff;
+  color: #333638;
   border-bottom: 1px solid #333638;
   font-size: 0.8em;
+}
+
+.icon-bar {
+
 }
 
 @media (min-width: 768px) {
@@ -116,6 +122,9 @@ body {
   margin-bottom: 15px;
   padding-right: 0px;
 }
+.images img {
+  box-shadow: 1px 3px 20px -2px #888888;
+}
 
 @media (max-width: 767px) {
   .images {
@@ -123,4 +132,9 @@ body {
     padding-right: 0px;
     padding-left: 0px;
   }
+}
+
+.portfolio .container-fluid {
+  padding-left: 0px; 
+  padding-right: 0px;
 }
